@@ -107,8 +107,8 @@ describe "#sorted?" do
   sorted?([1]).should == true
   end
   
-  it "returns [] if array is empty" do
-    sorted?([]).should == []
+  it "returns true if array is empty" do
+    sorted?([]).should == true
   end
   
   it "returns true if array is sorted" do
